@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 2</title>
+</head>
+<body>
+  <a href="#" onclick="afficher()">Afficher </a>
+  <a href="#" onclick="masquer()">Masquer</a>
+  <div id="texte">
+    <p>Joseph Dacre Carlyle (Carlisle, 4 juin 1758 - Newcastle upon Tyne, 12 avril 1804)est un orientaliste anglais.Après ses études à l'université de Cambridge,il y devint professeur d'arabe. En 1799, il fut attaché par le gouvernement britanniqueà l'ambassade de Lord Elgin dans l'Empire ottoman. Il était chargé d'explorer les bibliothèquesde la région (principalement celle du Sérail) pour y découvrir (et y acquérir) des manuscritsinédits de textes antiques. Il se rendit aussi en Égypte, en Terre sainte et au mont Athos. Sa mission fut, de son point de vue, un échec. Il acheta quelques centaines d'ouvrages,principalement dans les bazars de Constantinople, mais aucun ne contenait de texte inédit.Cependant, la façon dont certains manuscrits avaient été acquis, principalement ceux dupatriarche de Jérusalem Anthème Ier, ainsi que la querelle entamée sur la plaine de Troieentre Carlyle et un autre professeur de Cambridge, Edward Daniel Clarke, allaient être utilisées,après la mort de Carlyle, contre Lord Elgin, dans les controverses autour del'acquisition des « marbres d'Elgin ».De retour en Grande-Bretagne à l'automne 1801,Joseph Dacre Carlyle entama une traduction en arabe de la Bible. Sa mort en avril1804 coupa court à ce travail.</p>
+    </div>
+    <script>
+    // declare ma fionction
+    function afficher(){
+      // dans le document ( la page html) en selectione l'id (texte) et affihe le texte grace a la fonction onclick dans le <a>
+      document.getElementById('texte').style.display='block';
+    }
+    // declare ma fionction
+    function masquer(){
+        // dans le document ( la page html) en selectione l'id (texte) et masque le texte grace a la fonction onclick dans le <a>
+      document.getElementById('texte').style.display='none';
+    }
+    </script>
+  </body>
+  </html>
